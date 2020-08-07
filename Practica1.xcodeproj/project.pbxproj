@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		337ED94F24DE0CAD00D21115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337ED94E24DE0CAD00D21115 /* AppDelegate.swift */; };
 		337ED95124DE0CAD00D21115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337ED95024DE0CAD00D21115 /* SceneDelegate.swift */; };
-		337ED95324DE0CAD00D21115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337ED95224DE0CAD00D21115 /* ViewController.swift */; };
 		337ED95624DE0CAD00D21115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337ED95424DE0CAD00D21115 /* Main.storyboard */; };
 		337ED95824DE0CAE00D21115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337ED95724DE0CAE00D21115 /* Assets.xcassets */; };
 		337ED95B24DE0CAE00D21115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337ED95924DE0CAE00D21115 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		337ED94B24DE0CAD00D21115 /* Practica1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		337ED94E24DE0CAD00D21115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		337ED95024DE0CAD00D21115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		337ED95224DE0CAD00D21115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		337ED95524DE0CAD00D21115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		337ED95724DE0CAE00D21115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		337ED95A24DE0CAE00D21115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			children = (
 				337ED94E24DE0CAD00D21115 /* AppDelegate.swift */,
 				337ED95024DE0CAD00D21115 /* SceneDelegate.swift */,
-				337ED95224DE0CAD00D21115 /* ViewController.swift */,
 				337ED95424DE0CAD00D21115 /* Main.storyboard */,
 				337ED95724DE0CAE00D21115 /* Assets.xcassets */,
 				337ED95924DE0CAE00D21115 /* LaunchScreen.storyboard */,
@@ -138,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337ED95324DE0CAD00D21115 /* ViewController.swift in Sources */,
 				337ED94F24DE0CAD00D21115 /* AppDelegate.swift in Sources */,
 				337ED95124DE0CAD00D21115 /* SceneDelegate.swift in Sources */,
 			);
