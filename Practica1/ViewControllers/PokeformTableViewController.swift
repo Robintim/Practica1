@@ -38,13 +38,4 @@ class PokeformTableViewController: UITableViewController {
         navigationController?.popViewController(animated: true)
     }
     
-    @objc func cancelBtnClicked(_ button: UIBarButtonItem?) {
-        txfType1?.resignFirstResponder()
-    }
-
-    
-    @objc func doneBtnClicked(_ button: UIBarButtonItem?) {
-        txfType1?.resignFirstResponder()
-        txfType1?.text = pokePickerType1?.selectedValue
-    }
 }
