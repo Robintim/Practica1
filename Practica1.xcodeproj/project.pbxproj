@@ -12,6 +12,9 @@
 		337ED95624DE0CAD00D21115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337ED95424DE0CAD00D21115 /* Main.storyboard */; };
 		337ED95824DE0CAE00D21115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337ED95724DE0CAE00D21115 /* Assets.xcassets */; };
 		337ED95B24DE0CAE00D21115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337ED95924DE0CAE00D21115 /* LaunchScreen.storyboard */; };
+		33E4E2DA24DE18CD00988771 /* ListPokemonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4E2D924DE18CD00988771 /* ListPokemonTableViewController.swift */; };
+		33E4E2E224DE231100988771 /* PokeformTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4E2E124DE231100988771 /* PokeformTableViewController.swift */; };
+		33E4E2E524DE2C1100988771 /* PokePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4E2E424DE2C1100988771 /* PokePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		337ED95724DE0CAE00D21115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		337ED95A24DE0CAE00D21115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		337ED95C24DE0CAE00D21115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E4E2D924DE18CD00988771 /* ListPokemonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemonTableViewController.swift; sourceTree = "<group>"; };
+		33E4E2E124DE231100988771 /* PokeformTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeformTableViewController.swift; sourceTree = "<group>"; };
+		33E4E2E424DE2C1100988771 /* PokePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,9 @@
 		337ED94D24DE0CAD00D21115 /* Practica1 */ = {
 			isa = PBXGroup;
 			children = (
+				33E4E2E324DE2C0200988771 /* Functions */,
 				337ED94E24DE0CAD00D21115 /* AppDelegate.swift */,
+				33E4E2D824DE188200988771 /* ViewControllers */,
 				337ED95024DE0CAD00D21115 /* SceneDelegate.swift */,
 				337ED95424DE0CAD00D21115 /* Main.storyboard */,
 				337ED95724DE0CAE00D21115 /* Assets.xcassets */,
@@ -62,6 +70,23 @@
 				337ED95C24DE0CAE00D21115 /* Info.plist */,
 			);
 			path = Practica1;
+			sourceTree = "<group>";
+		};
+		33E4E2D824DE188200988771 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				33E4E2D924DE18CD00988771 /* ListPokemonTableViewController.swift */,
+				33E4E2E124DE231100988771 /* PokeformTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		33E4E2E324DE2C0200988771 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				33E4E2E424DE2C1100988771 /* PokePicker.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +162,9 @@
 			files = (
 				337ED94F24DE0CAD00D21115 /* AppDelegate.swift in Sources */,
 				337ED95124DE0CAD00D21115 /* SceneDelegate.swift in Sources */,
+				33E4E2E224DE231100988771 /* PokeformTableViewController.swift in Sources */,
+				33E4E2E524DE2C1100988771 /* PokePicker.swift in Sources */,
+				33E4E2DA24DE18CD00988771 /* ListPokemonTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QQSW9VPK6;
 				INFOPLIST_FILE = Practica1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.juno.daniel.Practica1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QQSW9VPK6;
 				INFOPLIST_FILE = Practica1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.juno.daniel.Practica1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
