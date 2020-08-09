@@ -30,7 +30,7 @@ enum PokemonType : String {
     case fairy = "hada"
     case noType = "????"
     
-    static func getArrayTypes () -> [String]{
+    static func getArray () -> [String]{
         return [normal.rawValue.capitalized, fighting.rawValue.capitalized, flying.rawValue.capitalized, poison.rawValue.capitalized, ground.rawValue.capitalized, rock.rawValue.capitalized, bug.rawValue.capitalized, ghost.rawValue.capitalized, steel.rawValue.capitalized, fire.rawValue.capitalized,water.rawValue.capitalized, grass.rawValue.capitalized, electric.rawValue.capitalized, psychic.rawValue.capitalized, ice.rawValue.capitalized, dragon.rawValue.capitalized, dark.rawValue.capitalized, fairy.rawValue.capitalized]
     }
 }
