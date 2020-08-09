@@ -15,7 +15,7 @@ class PokeformTableViewController: UITableViewController {
     @IBOutlet weak var txfType1: UITextField!
     @IBOutlet weak var txfType2: UITextField!
     
-    private let arrOptions = ["Cadena 1", "Cadena 2", "Cadena 3"]
+    private let arrOptions = PokemonType.getArray()
     private var pokePickerType1 : PokePicker?
     private var pokePickerType2 : PokePicker?
     private var pickerAccessory: UIToolbar?
