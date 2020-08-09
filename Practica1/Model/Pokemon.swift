@@ -9,5 +9,8 @@
 import Foundation
 
 struct Pokemon {
-    
+    var strName : String
+    var strNumber : String
+    var pokeType1 : PokemonType
+    var pokeType2 : PokemonType
 }

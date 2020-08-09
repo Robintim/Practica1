@@ -45,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3363F31C24DF8953005E9111 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33782F2C24DF1C2500066EFB /* Enums.swift */,
+				33782F2E24DF1E9E00066EFB /* Pokemon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		337ED94224DE0CAC00D21115 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +73,7 @@
 		337ED94D24DE0CAD00D21115 /* Practica1 */ = {
 			isa = PBXGroup;
 			children = (
+				3363F31C24DF8953005E9111 /* Model */,
 				33E4E2E324DE2C0200988771 /* Functions */,
 				337ED94E24DE0CAD00D21115 /* AppDelegate.swift */,
 				33E4E2D824DE188200988771 /* ViewControllers */,
@@ -89,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				33E4E2E424DE2C1100988771 /* PokePicker.swift */,
-				33782F2C24DF1C2500066EFB /* Enums.swift */,
-				33782F2E24DF1E9E00066EFB /* Pokemon.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
